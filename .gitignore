@@ -1,0 +1,58 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor / local tooling
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+*.orig
+
+# Python runtime and caches
+**/__pycache__/
+**/*.py[cod]
+**/*.pyo
+**/*.pyd
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+**/.venv/
+**/venv/
+**/env/₹₹₹₹1₹
+**/*.egg-info/
+**/.coverage
+**/coverage/
+**/htmlcov/
+**/.tox/
+**/.nox/
+
+# Build / packaging outputs
+**/build/
+**/dist/
+**/.vite/
+**/.cache/
+**/*.tsbuildinfo
+**/*.log
+
+# Node / frontend dependencies
+**/node_modules/
+
+# Local environment secrets
+**/.env
+**/.env.*
+
+# Runtime database and app data
+**/data/*.db
+**/data/*.db-shm
+**/data/*.db-wal
+**/data/*.sqlite3
+**/data/*.sqlite
+**/data/cache/
+**/tmp/
+**/temp/
+
+# Generated / downloaded project artifacts
+astrail_codebase.zip
+*.zip
